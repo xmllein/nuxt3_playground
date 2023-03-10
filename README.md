@@ -9,7 +9,7 @@
 - [x] `pinia` 配置
 - [x] `usevue` 配置
 - [x] `sass` 配置
-- [ ] `server` 目录下配置 `API`路由等
+- [x] `server` 目录下配置 `API`路由等
 
 ## 安装依赖
 

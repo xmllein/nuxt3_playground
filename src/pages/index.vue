@@ -43,6 +43,11 @@
     <h2>usevue</h2>
     <p>x :{{ x }}, y: {{ y }}</p>
   </div>
+  <div>
+    <h2>server</h2>
+    <p>{{ helloData?.statusCode }}</p>
+    <p>{{ helloData?.body }}</p>
+  </div>
 </template>
 
 <script setup>
@@ -86,6 +91,16 @@ const userInfo = useUserStore().useInfo
 
 // 使用 vueuse
 const { x, y } = useMouse()
+
+// server
+const { data: helloData } = await useFetch('api/hello')
+console.log(helloData.value)
+
+const { data: testApiData } = await useFetch('api/test/100?a=1&b=2', {
+  method: 'POST',
+  body: { account: '123', password: '123' },
+})
+console.log(testApiData)
 </script>
 
 <style scoped>
