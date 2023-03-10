@@ -54,3 +54,5 @@ npm run preview
 - [Nuxt 3 官网 中文](http://www.nuxt.com.cn/docs/getting-started/introduction)
 - [Nuxt3 正式版发布，教你用 vite+nuxt+pinia+vueuse 搞定前端 SSR 项目](https://juejin.cn/post/7170746000112353293)
 - [Nuxt3 入门基础](https://space.bilibili.com/482016706/channel/collectiondetail?sid=864032)
+- [pm2 部署](https://blog.csdn.net/snowball_li/article/details/128827550)
+- [pm2 常用](https://www.cnblogs.com/kunmomo/p/14990703.html)
